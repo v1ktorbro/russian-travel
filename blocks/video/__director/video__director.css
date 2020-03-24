@@ -1,0 +1,11 @@
+.video__director {
+  position: absolute;
+  left: 30px;
+  top: 280px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 0;
+}

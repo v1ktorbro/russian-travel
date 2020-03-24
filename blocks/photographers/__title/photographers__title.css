@@ -1,0 +1,10 @@
+.photographers__title {
+  max-width: 800px;
+  max-height: 157px;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  margin: auto;
+}

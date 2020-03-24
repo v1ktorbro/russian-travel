@@ -1,0 +1,8 @@
+.location__title {
+  grid-area: title;
+  font-family: 'Inter';
+  font-size: 72px;
+  line-height: 65px;
+  font-weight: 900;
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+.video__name {
+  position: absolute;
+  left: 30px;
+  bottom: 61px;
+  width: 322px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+@import url(./_font-bold/intro__facts_font-bold.css);
+
+.intro__facts {
+  list-style-type: none;
+  width: 383px;
+  height: 93px;
+  margin-top: 24px;
+  margin-left: 0;
+  padding-left: 0;
+  font-family: 'Inter';
+  font-size: 13px;
+  line-height: 20px;
+}

@@ -1,0 +1,11 @@
+.header__lang-list {
+  font-size: 24px;
+  line-height: 23px;
+  font-family: 'Inter';
+  list-style-type: none;
+}
+
+.header__lang-list:first-of-type {
+  text-decoration: underline;
+  margin-right: 18px;
+}

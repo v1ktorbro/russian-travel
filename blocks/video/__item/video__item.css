@@ -1,0 +1,11 @@
+.video__item {
+  position: relative;
+  max-width: 583px;
+  max-height: 323px;
+}
+
+.video__item:hover .video__image{
+  opacity: .5;
+  transition: opacity linear .5s;
+}
+

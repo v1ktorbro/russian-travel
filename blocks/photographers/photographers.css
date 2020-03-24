@@ -1,0 +1,7 @@
+@import url(./__subtitle/photographers__subtitle.css);
+@import url(./__title/photographers__title.css);
+
+.photographers {
+  max-width: 1184px;
+  margin: 102px auto 0;
+}

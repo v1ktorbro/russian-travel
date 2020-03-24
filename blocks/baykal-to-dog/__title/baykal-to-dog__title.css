@@ -1,0 +1,14 @@
+.baykal-to-dog__title{
+  max-width: 1094.27px;
+  /* дали блоку max-height: потому что он растягивается на треть родительского */
+  max-height: 69px;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  margin-top: 274px;
+  justify-self: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}

@@ -1,0 +1,18 @@
+@import url(./__subtitle/baukal-to-dog__subtitle.css);
+@import url(./__title/baykal-to-dog__title.css);
+@import url(./__image/baykal-to-dog__image.css);
+
+.baykal-to-dog {
+  max-width: 1184px;
+  height: 594px;
+  margin: 102px auto 0;
+  display: grid;
+  background-color: #000000;
+}
+
+
+
+
+
+
+

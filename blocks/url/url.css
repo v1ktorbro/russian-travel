@@ -1,0 +1,7 @@
+@import url(./__link/url__link.css);
+@import url(./__item/url__item.css);
+
+.url {
+  grid-area: url;
+  align-self: flex-end;
+}

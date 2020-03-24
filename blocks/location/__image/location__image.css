@@ -1,0 +1,5 @@
+.location__image {
+  grid-area: image;
+  width: 460px;
+  height: 460px;
+}

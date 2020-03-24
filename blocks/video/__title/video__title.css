@@ -1,0 +1,9 @@
+.video__title {
+  width: 800px;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  margin: auto;
+  text-align: center;
+}

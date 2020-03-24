@@ -1,0 +1,19 @@
+@import url(./__portrait/location__portrait.css);
+@import url(./__image/location__image.css);
+@import url(./__text/location__text.css);
+@import url(./__title/location__title.css);
+
+.location {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 60px;
+	grid-template-areas:
+		"title url"
+    "image portrait";
+    margin-bottom: 72px;
+}
+
+.location:last-of-type {
+  margin-bottom: 0;
+}
