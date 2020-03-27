@@ -1,10 +1,24 @@
 .photographers__title {
   max-width: 800px;
-  max-height: 157px;
-  font-family: 'Inter';
   font-weight: 900;
   font-size: 72px;
   line-height: 78px;
   text-align: center;
   margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .photographers__title {
+    font-size: 42px;
+    line-height: 46px;
+    white-space: pre;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photographers__title {
+    font-size: 32px;
+    line-height: 35px;
+    white-space: pre-wrap;
+  }
 }

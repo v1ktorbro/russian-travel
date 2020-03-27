@@ -4,9 +4,17 @@
 @import url(./__cell/comments__cell.css);
 
 .comments {
-  max-width: 1184px;
   margin: 72px auto 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   grid-column-gap: 19px;
 }
+
+@media screen and (max-width: 1023px) {
+  .comments {
+    max-width: 382px;
+    grid-gap: 48px;
+  }
+}
+
+

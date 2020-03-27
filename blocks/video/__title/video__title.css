@@ -1,9 +1,24 @@
 .video__title {
-  width: 800px;
-  font-family: 'Inter';
+  max-width: 800px;
   font-weight: 900;
   font-size: 72px;
   line-height: 78px;
   margin: auto;
   text-align: center;
+  white-space: pre;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__title {
+    font-size: 32px;
+    line-height: 35px;
+    white-space: pre-wrap;
+  }
 }

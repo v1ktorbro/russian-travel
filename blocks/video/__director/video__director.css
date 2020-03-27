@@ -2,10 +2,34 @@
   position: absolute;
   left: 30px;
   top: 280px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 15px;
   margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .video__director {
+    top: 240px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__director {
+    top: 160px;
+    left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__director {
+    top: 160px;
+    left: 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__director {
+    top: 160px;
+    left: 16px;
+  }
 }

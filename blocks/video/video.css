@@ -12,3 +12,25 @@
   max-width: 1184px;
   margin: 102px auto 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .video {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

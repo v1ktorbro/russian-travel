@@ -1,9 +1,13 @@
 .footer__copyright {
-  font-family: 'Inter';
-  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
   display: flex;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 48px;
+  }
 }

@@ -5,3 +5,9 @@
   grid-area: url;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+  .url {
+    display: none;
+  }
+}

@@ -3,3 +3,11 @@
   height: 97px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1023px) {
+  .comments__image {
+    grid-area: image;
+    justify-self: center;
+    margin-bottom: 16px;
+  }
+}

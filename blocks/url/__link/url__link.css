@@ -1,9 +1,7 @@
 .url__link {
   color: #ffffff;
-  font-family: 'Inter';
   font-size: 18px;
   line-height: 30px;
-  font-weight: normal;
 }
 
 .url__link:hover {

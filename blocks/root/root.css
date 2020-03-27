@@ -1,5 +1,11 @@
 .root {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
   background-color: #2a2c2f;
-  width: 1440px;
+  max-width: 1440px;
   color: white;
 }

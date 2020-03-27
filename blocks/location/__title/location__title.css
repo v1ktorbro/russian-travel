@@ -1,8 +1,25 @@
 .location__title {
   grid-area: title;
-  font-family: 'Inter';
   font-size: 72px;
   line-height: 65px;
   font-weight: 900;
   margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .location__title {
+    font-size: 42px;
+    line-height: 46px;
+    white-space: pre;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .location__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+    margin-right: 16px;
+    white-space: nowrap;
+  }
 }

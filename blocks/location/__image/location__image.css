@@ -1,5 +1,39 @@
 .location__image {
   grid-area: image;
-  width: 460px;
-  height: 460px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .location__image {
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .location__image {
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .location__image {
+    height: 340px;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .location__image {
+    width: 375px;
+    height: 375px;
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .location__image {
+    width: 320px;
+    height: 320px;
+    margin-top: 32px;
+  }
 }

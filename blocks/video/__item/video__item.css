@@ -1,7 +1,6 @@
 .video__item {
   position: relative;
   max-width: 583px;
-  max-height: 323px;
 }
 
 .video__item:hover .video__image{
@@ -9,3 +8,40 @@
   transition: opacity linear .5s;
 }
 
+@media screen and (min-width: 1280px) {
+  .video__item {
+    height: 323px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .video__item {
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video__item {
+    height: 200px;
+  }
+
+  .video__item:last-of-type .video__duration {
+    top: 82px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item {
+    height: 192px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item {
+    height: 192px;
+  }
+
+  .video__item:last-of-type .video__duration {
+    top: 80px;
+  }
+}

@@ -10,9 +10,24 @@
   background-color: #000000;
 }
 
+@media screen and (max-width: 1023px) {
+  .baykal-to-dog {
+    height: 500px;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .baykal-to-dog {
+    height: 272px;
+    width: 375px;
+    margin-top: 48px;
+  }
+}
 
-
-
-
-
+@media screen and (max-width: 374px) {
+  .baykal-to-dog {
+    height: 216px;
+    width: 320px;
+    margin-top: 64px;
+  }
+}

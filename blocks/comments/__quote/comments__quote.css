@@ -1,7 +1,15 @@
 .comments__quote {
-  font-family: 'Inter';
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   margin: 42px 0 24px;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__quote {
+    grid-area: quote;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 23px;
+  }
 }

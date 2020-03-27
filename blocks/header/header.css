@@ -4,8 +4,28 @@
 
 .header {
   display: flex;
-  width: 1184px;
+  max-width: 1184px;
   height: 52px;
   margin: 30px auto 0;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .header {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+  margin: 16px 16px 0;
+  }
 }

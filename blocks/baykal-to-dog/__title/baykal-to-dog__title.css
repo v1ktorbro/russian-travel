@@ -1,8 +1,5 @@
 .baykal-to-dog__title{
-  max-width: 1094.27px;
-  /* дали блоку max-height: потому что он растягивается на треть родительского */
-  max-height: 69px;
-  font-family: 'Inter';
+  max-width: 1094px;
   font-weight: 900;
   font-size: 72px;
   line-height: 78px;
@@ -11,4 +8,32 @@
   justify-self: center;
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+@media screen and (max-width: 1279px) {
+  .baykal-to-dog__title {
+    white-space: pre;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .baykal-to-dog__title {
+    margin-top: 165px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .baykal-to-dog__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 104px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .baykal-to-dog__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 64px;
+  }
 }
