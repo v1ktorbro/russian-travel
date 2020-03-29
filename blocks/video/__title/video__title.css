@@ -8,7 +8,7 @@
   white-space: pre;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .video__title {
     font-size: 42px;
     line-height: 46px;

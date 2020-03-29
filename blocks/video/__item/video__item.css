@@ -36,7 +36,17 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 615px) {
+  .video__item {
+    height: 240px;
+  }
+
+  .video__item:last-of-type .video__duration {
+    top: 104px;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .video__item {
     height: 192px;
   }

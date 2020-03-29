@@ -18,16 +18,20 @@
 
 @media screen and (max-width: 767px) {
   .baykal-to-dog {
-    height: 272px;
-    width: 375px;
+    height: 350px;
     margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .baykal-to-dog {
+    height: 272px;
   }
 }
 
 @media screen and (max-width: 374px) {
   .baykal-to-dog {
     height: 216px;
-    width: 320px;
     margin-top: 64px;
   }
 }

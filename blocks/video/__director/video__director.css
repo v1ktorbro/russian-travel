@@ -27,9 +27,16 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 615px) {
+  .video__director {
+    top: 190px;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .video__director {
     top: 160px;
     left: 16px;
   }
 }
+

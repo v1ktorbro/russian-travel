@@ -26,14 +26,18 @@
   .baykal-to-dog__title {
     font-size: 32px;
     line-height: 35px;
+    margin-top: 144px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .baykal-to-dog__title {
     margin-top: 104px;
   }
 }
 
 @media screen and (max-width: 374px) {
   .baykal-to-dog__title {
-    font-size: 32px;
-    line-height: 35px;
     margin-top: 64px;
   }
 }

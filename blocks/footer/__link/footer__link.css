@@ -6,10 +6,10 @@
   margin-right: 18px;
 }
 
-.footer__link:last-of-type {
+/* .footer__link:last-of-type {
   margin-right: 0;
 }
-
+ */
 .footer__link:hover {
   opacity: .5;
   transition: opacity linear 1s;

@@ -29,7 +29,13 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 615px) {
+  .video__duration {
+    top: 130px;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .video__duration {
     top: 106px;
     left: 16px;

@@ -1,8 +1,7 @@
-@import url(./_font-bold/intro__facts_font-bold.css);
-
 .intro__facts {
   list-style-type: none;
-  width: 383px;
+  max-width: 383px;
+  font-weight: bold;
   margin: 24px 0 0;
   padding-left: 0;
   font-size: 13px;

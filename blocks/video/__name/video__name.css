@@ -33,11 +33,16 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 615px) {
   .video__name {
-    font-size: 24px;
-    line-height: 26px;
+    bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__name {
     bottom: 34px;
     left: 16px;
+    width: auto;
   }
 }

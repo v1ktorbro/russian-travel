@@ -4,11 +4,6 @@
   list-style-type: none;
 }
 
-.header__lang-list:first-of-type {
-  text-decoration: underline;
-  margin-right: 18px;
-}
-
 @media screen and (max-width: 767px) {
   .header__lang-list {
     font-size: 18px;
