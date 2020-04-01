@@ -1,42 +1,33 @@
 .video__director {
-  position: absolute;
-  left: 30px;
-  top: 280px;
   font-size: 14px;
   line-height: 15px;
-  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .video__director {
-    top: 240px;
+    margin-bottom: 35px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .video__director {
-    top: 160px;
-    left: 24px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .video__director {
-    top: 160px;
-    left: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
   }
 }
 
 @media screen and (max-width: 615px) {
   .video__director {
-    top: 190px;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .video__director {
-    top: 160px;
-    left: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
   }
 }
-

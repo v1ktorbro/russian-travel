@@ -30,9 +30,9 @@
 
 @media screen and (max-width: 767px) {
 	.location__image {
-	height: 500px;
-	margin-top: 32px;
-	width: 100%;
+	  height: 500px;
+	  margin-top: 32px;
+	  width: 100%;
 	}
 }
 

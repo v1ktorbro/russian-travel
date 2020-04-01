@@ -7,7 +7,13 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
+  .photographers__title {
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .photographers__title {
     font-size: 42px;
     line-height: 46px;

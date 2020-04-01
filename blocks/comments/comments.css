@@ -17,4 +17,14 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .comments {
+    margin-top: 48px;
+  }
+}
 
+@media screen and (max-width: 374px) {
+  .comments {
+    margin-top: 40px;
+  }
+}

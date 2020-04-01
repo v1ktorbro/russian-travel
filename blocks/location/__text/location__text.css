@@ -2,6 +2,17 @@
   font-size: 18px;
   line-height: 30px;
   margin: 0;
+  margin-bottom: 36px;
+}
+
+.location__text:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .location__text {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -10,3 +21,4 @@
     line-height: 27px;
   }
 }
+

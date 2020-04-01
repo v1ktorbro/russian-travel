@@ -3,13 +3,10 @@
 .header__lang-link {
   color: white;
   text-decoration: none;
+  margin-left: 18px;
 }
 
  .header__lang-link:hover {
   opacity: .5;
   transition: opacity  linear 1s;
-}
-
-.header__lang-link.header__lang-link_active {
-  text-decoration: underline;
 }

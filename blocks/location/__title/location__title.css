@@ -3,7 +3,8 @@
 	font-size: 72px;
 	line-height: 65px;
 	font-weight: 900;
-	margin: 0;
+  margin: 0;
+  white-space: pre;
  }
 
  @media screen and (max-width: 1023px) {

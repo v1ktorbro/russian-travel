@@ -4,40 +4,38 @@
   font-size: 72px;
   line-height: 78px;
   text-align: center;
-  margin-top: 274px;
-  justify-self: center;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  margin: 274px auto 134px;
+  /* margin: 0 auto 134px; */
 }
 
 @media screen and (max-width: 1279px) {
   .baykal-to-dog__title {
     white-space: pre;
+    margin-top: 211px;
+    margin-bottom: 69px;
+    /* margin-bottom: 85px; */
   }
 }
 
 @media screen and (max-width: 1023px) {
   .baykal-to-dog__title {
     margin-top: 165px;
+    margin-bottom: 45px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .baykal-to-dog__title {
+    margin-top: 104px;
+    margin-bottom: 7px;
     font-size: 32px;
     line-height: 35px;
-    margin-top: 144px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .baykal-to-dog__title {
-    margin-top: 104px;
   }
 }
 
 @media screen and (max-width: 374px) {
   .baykal-to-dog__title {
     margin-top: 64px;
+    /* margin-bottom: 7px; */
   }
 }

@@ -1,11 +1,23 @@
 .video__item {
-  position: relative;
+  background-image: url(../../../images/colors-of-camchatka.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   max-width: 583px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  border-radius: 5px;
 }
 
-.video__item:hover .video__image{
-  opacity: .5;
-  transition: opacity linear .5s;
+.video__item:hover {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, .7),
+    rgba(0, 0, 0, .7)
+  ),
+  url(../../../images/colors-of-camchatka.png);
 }
 
 @media screen and (min-width: 1280px) {
@@ -24,10 +36,6 @@
   .video__item {
     height: 200px;
   }
-
-  .video__item:last-of-type .video__duration {
-    top: 82px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -40,18 +48,18 @@
   .video__item {
     height: 240px;
   }
-
-  .video__item:last-of-type .video__duration {
-    top: 104px;
-  }
 }
 
 @media screen and (max-width: 424px) {
   .video__item {
-    height: 192px;
-  }
-
-  .video__item:last-of-type .video__duration {
-    top: 80px;
+    height: 200px;
   }
 }
+
+
+@media screen and (max-width: 374px) {
+  .video__item {
+    height: 192px;
+  }
+}
+

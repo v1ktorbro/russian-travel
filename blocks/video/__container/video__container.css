@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 1023px) {
   .video__container {
-    grid-column-gap: 16px;
     margin-top: 56px;
   }
 }
