@@ -5,7 +5,7 @@
 Файловая структура проекта была создана по структуре [БЭМ Nested](https://ru.bem.info/methodology/filestructure/). Архив состоит из следующих файлов и катологов:
 
         bloks/          блоки страницы
-        fonts/          шрифт ['Inter'](https://rsms.me/inter/)
+        fonts/          шрифт [Inter](https://rsms.me/inter/)
         images/         картинки, логотипы, бэкграунды
         pages/          index.css
         vendor/         папка для сторонних стилей
