@@ -1,7 +1,7 @@
 # [Путешествия по России](https://russian-travel.abrosimov.site)
 **[ Base URL: russian-travel.abrosimov.site ]**
 
-*Лендинг страница*
+*Адаптивная лендинг страница*
 
 ## Инструменты:
 **CSS, HTML, GIT.**
